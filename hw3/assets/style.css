@@ -1,0 +1,39 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    width: 500px;
+    /* border - границы */
+    border: 3px solid red;
+    background-color:#f3e3ce;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+h1 {
+    color:darkorange;
+    margin: 0;
+}
+/* p {
+    color: aqua;
+    margin: 0; */
+/* } */
+.modList {
+    color: rgb(37, 56, 226);
+    text-decoration: underline;
+}
+.ice {
+    color:rgb(112, 7, 250);
+    font-size: 15px;
+}
+.btn {
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(162, 247, 179);
+    border: 2px solid rgb(255, 183, 2);
+}
+.btn:hover {
+    background-color: rgb(69, 85, 85);
+}
